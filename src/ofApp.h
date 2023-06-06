@@ -17,4 +17,7 @@ class ofApp : public ofBaseApp{
 		float x, y;
 		float ancho, alto;
 
+		ofSoundPlayer fondo; //Sonido de fondo
+		ofSoundPlayer audio1; //Sonido
+		float volumen; //Declaro una variable donde voy a guardar el volumen
 };
